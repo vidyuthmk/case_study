@@ -28,21 +28,11 @@ You can test if you installed DuckDB properly using "duckdb_test.py"
      - **activity_date** - Date of activity (i.e. when the steps were tracked)
      - **user_id** - Unique Identifier of a User
      - **steps** - How many steps were tracked
-2. These final dbt models are expected:
-   - users:
-     - **user_id** should be unique
-     - **user_name** keep "as-is"
-   - companies:
-     - **company_id** should be unique
-     - **company_name** should be Camel Case
-     - **company_size** should be integer, if you could convert the original value to int, pls use "floor" math function if not use NULL
-   - steps:
-     - **activity_date** - should be real date
-     - **user_id** - should exist in **users** mart/model
-     - **steps** - should be between 1 and 40000
+2. Design your dbt models, so they could answer the question below and are scalable 
 3. Write these Queries with SQL and show the result with Pandas (plain text or chart - is up to you):
     - Show the daily average number of steps for all the users, i.e. it should be 1 number 
-    - Show per "Company Name" amount of users and calculate % of how many users have steps data 
+    - Show per "Company Name" amount of users and calculate % of how many users have steps data
+    - Show the top 10 and bottom 10 users (user_name) with the most (and least) steps collect in 1 day. You could show it together or separately (up to you)
 
 ### How to share the result?
 1. Fork this repository
