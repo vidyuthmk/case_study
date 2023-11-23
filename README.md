@@ -32,7 +32,7 @@ You can test if you installed DuckDB properly using "duckdb_test.py"
 3. Write these Queries with SQL and show the result with Pandas (plain text or chart - is up to you):
     - Show the daily average number of steps for all the users, i.e. it should be 1 number 
     - Show per "Company Name" amount of users and calculate % of how many users have steps data
-    - Show the top 10 and bottom 10 users (user_name) with the most (and least) steps collect in 1 day. You could show it together or separately (up to you)
+    - Show the top 10 and bottom 10 users (user_name) with the most (and least) steps collect in 1 day.
 
 ### How to share the result?
 1. Fork this repository
