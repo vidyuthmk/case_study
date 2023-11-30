@@ -35,7 +35,7 @@ You can test if you installed DuckDB properly using "duckdb_test.py"
     - Show the top 10 and bottom 10 users (user_name) with the most (and least) steps collect in 1 day.
 
 ### How to share the result?
-1. Fork this repository
+1. Clone (don't fork) this repository
 2. Do the necessary changes
 3. Don't forget to commit/push them
-4. Share your forked repo URL
+4. Share your cloned repo URL
