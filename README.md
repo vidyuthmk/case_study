@@ -39,3 +39,16 @@ You can test if you installed DuckDB properly using "duckdb_test.py"
 2. Do the necessary changes
 3. Don't forget to commit/push them
 4. Share your cloned repo URL
+
+
+#### Answes:
+
+I have created a Dbt models in 3 stages stagging >> intermediate >> Mart
+all the final queries ti anlysis are in teh mart table 
+
+i have added the csv files which are source data for my models into seeds as i couldnt able to run the external file access using duck db.
+
+i also would like to expalin my project given the chance to 
+
+thanks and regards
+Vidyadhr
