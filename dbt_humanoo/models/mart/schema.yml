@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: average_daily_steps_per_user
+  - name: company_users_step_data

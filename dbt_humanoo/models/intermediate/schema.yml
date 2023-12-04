@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: int__users
+  - name: int__steps_data

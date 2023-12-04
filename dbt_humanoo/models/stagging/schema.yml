@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: stg__users
+  - name: stg__steps_data
