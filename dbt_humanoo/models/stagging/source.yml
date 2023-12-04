@@ -5,7 +5,7 @@ sources:
     database: case_study
     schema: main
     tables:
-      - name: users
+      - name: src
         columns:
           - name: user_id
             description: "ID unique identifier for each individual user"
@@ -19,11 +19,7 @@ sources:
             description: "Name of the company associated with the user"
           - name: company_size
             description: "Size of the company associated with the user"
-  - name: steps_data
-    meta:
-      external_location: "/Users/vidyadharmk/Desktop/humanoo_analytics_engineering_case_study/source_files/steps.csv"
-    tables:
-      - name: steps_data
+      - name: steps
         columns:
           - name: activity_date
             description: "Date of activity (i.e. when the steps were tracked)"

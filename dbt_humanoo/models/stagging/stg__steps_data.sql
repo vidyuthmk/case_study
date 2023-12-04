@@ -8,8 +8,8 @@ WITH src AS (
         *
     FROM
         {{ source(
-            'steps_data',
-            'steps_data'
+            'src',
+            'steps'
         ) }}
 )
 SELECT

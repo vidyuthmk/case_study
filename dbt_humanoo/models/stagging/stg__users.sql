@@ -8,7 +8,7 @@ WITH src AS (
         *
     FROM
         {{ source(
-            'users',
+            'src',
             'users'
         ) }}
 )
